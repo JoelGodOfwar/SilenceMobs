@@ -1,0 +1,7 @@
+langversion: 1.0.0
+newvers: Neue Version verfügbar!
+server_not_version: Server ist NICHT Version 1.10+
+reload: Lädt dieses Plugin neu.
+srdebuguse: Schaltet das Debugging vorübergehend um.
+debugtrue: Debug auf boolean gesetzt.
+reloaded: SilenceMobs wurde neu geladen.

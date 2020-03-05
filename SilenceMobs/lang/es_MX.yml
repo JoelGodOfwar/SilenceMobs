@@ -1,0 +1,7 @@
+langversion: 1.0.0
+newvers: ¡Nueva versión disponible!
+server_not_version: El servidor NO es la versión 1.10+
+reload: Vuelve a cargar este complemento.
+srdebuguse: Alterna temporalmente la depuración.
+debugtrue: Depuración establecida en boolean.
+reloaded: SilenceMobs ha sido recargado.

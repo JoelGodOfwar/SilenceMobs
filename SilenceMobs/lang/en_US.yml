@@ -1,0 +1,7 @@
+langversion: 1.0.0
+newvers: New version available!
+server_not_version: Server is NOT version 1.10+
+reload: Reloads this plugin.
+srdebuguse: Temporarily toggles debug.
+debugtrue: Debug set to boolean.
+reloaded: SilenceMobs has been reloaded.
