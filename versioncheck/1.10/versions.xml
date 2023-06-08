@@ -1,10 +1,8 @@
 <versions>
   <release>
-    <version>1.10_1.0.4</version>
-    <notes>D1- Fix for PetDragon plugin, added /sm dragon to silence EnderDragons, added new update checker. Added colorful_console config.
-D2-Fixes EnderDragons, with "/sm dragon" command, and also monitors dragons when a chunk unloads, and when a new one is spawned, to fix an issue with the PetDragon plugin.
-D3-Added tab complete for commands.
-D4-Minor tweaks to serialize code.</notes>
+    <version>1.10_1.0.5</version>
+    <notes>D1	Minor changes to UpdateChecker Notifications.
+D2	Switching translations from yaml to i18n.</notes>
     <link>https://www.spigotmc.org/resources/silence-mobs.75749/history</link>
   </release>
   <developer>
