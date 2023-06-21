@@ -1,0 +1,11 @@
+1.0.6
+D1	
+1.0.5
+D1	Minor changes to UpdateChecker Notifications.
+D2	Switching translations from yaml to i18n.
+D3	
+1.0.4
+D1- Fix for PetDragon plugin, added /sm dragon to silence EnderDragons, added new update checker. Added colorful_console config.
+D2-Fixes EnderDragons, with "/sm dragon" command, and also monitors dragons when a chunk unloads, and when a new one is spawned, to fix an issue with the PetDragon plugin.
+D3-Added tab complete for commands.
+D4-Minor tweaks to serialize code.
