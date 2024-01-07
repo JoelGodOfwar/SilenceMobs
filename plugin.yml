@@ -3,6 +3,7 @@ main: com.github.joelgodofwar.sm.SilenceMobs
 version: 1.10_1.0.5
 folia-supported: true
 author: JoelYahwehOfWar
+api-version: 1.10
 
 commands:
   sm:
