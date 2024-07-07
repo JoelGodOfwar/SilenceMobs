@@ -12,8 +12,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.Level;
 
-import jdk.internal.joptsimple.internal.Strings;
-
 import org.apache.commons.lang.Validate;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.InvalidConfigurationException;
@@ -25,6 +23,8 @@ import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.representer.Representer;
 
 import com.google.common.base.Charsets;
+
+import jdk.internal.joptsimple.internal.Strings;
  
 /*
  * @author: Aoife (Josh)
