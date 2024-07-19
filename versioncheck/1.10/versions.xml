@@ -1,9 +1,7 @@
 <versions>
   <release>
-    <version>1.10_1.0.7</version>
-    <notes>D1	Updated to JAVA 11, Added better error and log handling
-D2	Fixed Version Extractor.
-D3	Fixed exception from Unloading Chunks, silenced Dragons may be affected.</notes>
+    <version>1.10_1.0.8</version>
+    <notes>D1	Added a null check for chunkLoadEvent.</notes>
     <link>https://www.spigotmc.org/resources/silence-mobs.75749/history</link>
   </release>
   <developer>
