@@ -12,9 +12,7 @@ import com.google.common.collect.Ordering;
 
 
 public class Version implements Comparable<Version>, Serializable {
-	/**
-	 * 
-	 */
+
 	/**
 	 * The latest release version of minecraft.
 	 */
@@ -92,7 +90,7 @@ public class Version implements Comparable<Version>, Serializable {
 	/**
 	 * Extract the Minecraft version from CraftBukkit itself.
 	 *
-	 * @param text - the server version in text form.
+	 * @param strVersion - the server version in text form.
 	 * @return The underlying MC version.
 	 * @throws IllegalStateException If we could not parse the version string.
 	 */

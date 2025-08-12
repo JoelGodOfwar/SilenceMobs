@@ -2,6 +2,7 @@ package com.github.joelgodofwar.sm.common;
 
 import java.util.List;
 
+import com.github.joelgodofwar.sm.util.Version;
 import org.apache.commons.lang.Validate;
 import org.bukkit.plugin.Plugin;
 
@@ -15,12 +16,12 @@ public class PluginLibrary {
 	/**
 	 * The minimum version MoreMobHeads has been tested with.
 	 */
-	public static final String MINIMUM_MINECRAFT_VERSION = "1.14";
+	public static final Version MINIMUM_MINECRAFT_VERSION = new Version("1.20");
 
 	/**
 	 * The maximum version MoreMobHeads has been tested with.
 	 */
-	public static final String MAXIMUM_MINECRAFT_VERSION = "1.21";
+	public static final Version MAXIMUM_MINECRAFT_VERSION = new Version("1.21.8");
 
 	/**
 	 * The date (with ISO 8601 or YYYY-MM-DD) when the most recent version (1.20.4) was released.
@@ -97,12 +98,14 @@ public class PluginLibrary {
 	public static final ReportType ERROR_HANDLING_PHANTOM_GRIEF = new ReportType("Error handling Phantom Grief.");
 	public static final ReportType ERROR_HANDLING_PILLAGER_PATROL_GRIEF = new ReportType("Error handling Pillager Patrol Grief.");
 	public static final ReportType ERROR_PLAYER_INTERACTENTITY_EVENT = new ReportType("Unhandled PlayerInteractEntityEvent Exception.");
+	public static final ReportType ERROR_SILENCE_ENTITY_FAILED = new ReportType("Unable to silence entity.");
 	public static final ReportType ERROR_ENTITY_DEATH_EVENT = new ReportType("Unhandled EntityDeathEvent Exception.");
 	public static final ReportType ERROR_CHUNK_UNLOAD_EVENT = new ReportType("Unhandled ChunkUnloadEvent Exception.");
 	public static final ReportType ERROR_CREATURE_SPAWN_EVENT = new ReportType("Unhandled CreatureSpawnEvent Exception.");
 	public static final ReportType ERROR_CSE_VILLAGER = new ReportType("Unable to parse infected/cured villager.");
 	public static final ReportType ERROR_CSE_DRAGON = new ReportType("Unable to parse EnderDragon.");
 	public static final ReportType ERROR_COMMAND_DRAGON = new ReportType("Unable to Silence EnderDragon.");
+	public static final ReportType REPORT_PLAYER_JOIN_ERROR = new ReportType("Error processing JoinEvent warning.");
 
 	/**
 	 * Gets the MoreMobHeads plugin instance.

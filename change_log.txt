@@ -1,5 +1,10 @@
+1.0.9
+D1	optimized with shared utilities in PluginCommon, improved config handling, and enhanced reload.
+D2	Raised minimum version to 1.20, added /sm config GUI, improved version check with dynamic message,
+    updated 20 language files with GUI and Lolcat support, fixed HeadUtils, and enhanced permission and config systems.
+D3	.
 1.0.8
-D1	
+D1	Added a null check for chunkLoadEvent.
 1.0.7
 D1	Updated to JAVA 11, Added better error and log handling
 D2	Fixed Version Extractor.

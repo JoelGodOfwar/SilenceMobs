@@ -103,7 +103,7 @@ public class DetailedErrorReporter implements ErrorReporter {
 	 * @param prefix - default line prefix.
 	 * @param supportURL - URL to report the error.
 	 * @param maxErrorCount - number of errors to print before giving up.
-	 * @param LOGGER - current logger.
+	 * @param logger - current logger.
 	 */
 	public DetailedErrorReporter(Plugin plugin, String prefix, String supportURL, int maxErrorCount, Logger logger) {
 		if (plugin == null) {
@@ -360,7 +360,7 @@ public class DetailedErrorReporter implements ErrorReporter {
 		// And plugin
 		if (plugin != null) {
 			writer.println("Version: " + SM.getName() + " v" + SM.getDescription().getVersion());
-			String jarfilename = SM.getjarfilename();
+			String jarfilename = SM.getJarFileName();
 			writer.println(addPrefix("jarfilename: " + StrUtils.Right(jarfilename, jarfilename.length() - jarfilename.lastIndexOf(File.separatorChar)), SECOND_LEVEL_PREFIX));
 			//writer.println(addPrefix(plugin.toString(), SECOND_LEVEL_PREFIX));
 		}
