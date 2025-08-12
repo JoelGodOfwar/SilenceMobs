@@ -2,8 +2,8 @@
 /target/                  # Maven build output
 *.class                  # Compiled Java classes
 *.jar                    # Compiled JARs
-.idea/                   # IntelliJ project files
+/.idea/                   # IntelliJ project files
 *.iml                    # IntelliJ module files
 .classpath               # Eclipse project files
 .project                 # Eclipse project files
-.settings/               # Eclipse settings
+/.settings/              # Eclipse settings

@@ -103,7 +103,7 @@ public class DetailedErrorReporter implements ErrorReporter {
 	 * @param prefix - default line prefix.
 	 * @param supportURL - URL to report the error.
 	 * @param maxErrorCount - number of errors to print before giving up.
-	 * @param LOGGER - current logger.
+	 * @param logger - current logger.
 	 */
 	public DetailedErrorReporter(Plugin plugin, String prefix, String supportURL, int maxErrorCount, Logger logger) {
 		if (plugin == null) {
