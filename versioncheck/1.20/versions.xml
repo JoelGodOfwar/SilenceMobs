@@ -1,1 +1,12 @@
-
+<versions>
+  <release>
+    <version>1.10_1.0.8</version>
+    <notes>D1	Added a null check for chunkLoadEvent.</notes>
+    <link>https://www.spigotmc.org/resources/silence-mobs.75749/history</link>
+  </release>
+  <developer>
+    <version>1.10_1.0.9.D1</version>
+    <notes>D1  optimized with shared utilities in PluginCommon, improved config handling, and enhanced reload.</notes>
+    <link>https://discord.com/channels/654087250665144321/684673817892749312</link>
+  </developer>
+</versions>
