@@ -5,7 +5,7 @@
     <link>https://www.spigotmc.org/resources/silence-mobs.75749/history</link>
   </release>
   <developer>
-    <version>1.10_1.0.9.D2</version>
+    <version>1.20_1.0.9.D2</version>
     <notes>D1  optimized with shared utilities in PluginCommon, improved config handling, and enhanced reload.
 D2  Raised minimum version to 1.20, added /sm config GUI, improved version check with dynamic message,
     updated 20 language files with GUI and Lolcat support, fixed HeadUtils, and enhanced permission and config systems.</notes>
