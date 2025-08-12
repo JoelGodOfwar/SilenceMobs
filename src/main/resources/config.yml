@@ -1,0 +1,22 @@
+# DO NOT CHANGE VERSION
+version: 1.0.1
+# 
+# change to false to stop auto-update-check
+auto_update_check: true
+# 
+# set to true before sending a log about an issue.
+#logs trace data required to pinpoint where errors are.
+debug: false
+# 
+# čeština (cs_CZ), Deutsch (de_DE), English (en_US), Español (es_ES), Español (es_MX),
+# Français (fr_FR), Italiano (it_IT), Magyar (hu_HU), 日本語 (ja_JP), 한국어 (ko_KR),
+# Lolcat (lol_US), Melayu (my_MY), Nederlands (nl_NL), Polski (pl_PL), Português (pt_BR),
+# Русский (ru_RU), Svenska (sv_SV), Türkçe (tr_TR), 中文(简体) (zh_CN), 中文(繁體) (zh_TW)
+lang: en_US
+# 
+# Console settings.
+console:
+  # Enables fancy ANSI colors in console. (Disable if you're getting weird characters in the console)
+  colorful_console: true
+  # Should SilenceMobs use it's full name or SM in console messages?
+  longpluginname: true

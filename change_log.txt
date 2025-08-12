@@ -1,0 +1,22 @@
+1.0.9
+D1	optimized with shared utilities in PluginCommon, improved config handling, and enhanced reload.
+D2	Raised minimum version to 1.20, added /sm config GUI, improved version check with dynamic message,
+    updated 20 language files with GUI and Lolcat support, fixed HeadUtils, and enhanced permission and config systems.
+D3	.
+1.0.8
+D1	Added a null check for chunkLoadEvent.
+1.0.7
+D1	Updated to JAVA 11, Added better error and log handling
+D2	Fixed Version Extractor.
+D3	Fixed exception from Unloading Chunks, silenced Dragons may be affected.
+1.0.6
+D1	Added persistent data string to mobs that are silenced. Added new check command, that will check entities within 10 blocks.
+D2	Removed Birthday Message code.
+1.0.5
+D1	Minor changes to UpdateChecker Notifications.
+D2	Switching translations from yaml to i18n.
+1.0.4
+D1- Fix for PetDragon plugin, added /sm dragon to silence EnderDragons, added new update checker. Added colorful_console config.
+D2-Fixes EnderDragons, with "/sm dragon" command, and also monitors dragons when a chunk unloads, and when a new one is spawned, to fix an issue with the PetDragon plugin.
+D3-Added tab complete for commands.
+D4-Minor tweaks to serialize code.
